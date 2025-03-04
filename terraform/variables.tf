@@ -1,15 +1,15 @@
 variable "environment" {
   type        = string
   description = "Name of the application environment"
-  default     = "test"
+  default     = "KulsveenTestEnvironment"
 }
 variable "rg_name" {
   type        = string
   description = "The resource group name"
-  default     = "TODO"
+  default     = "KulsveenResourceGroup"
 }
 
-variable "location" {
+variable "rg_location" {
   type        = string
   description = "Azure region for Right Cloud resources"
   default     = "West Europe"
@@ -18,11 +18,11 @@ variable "location" {
 variable "app_service_plan" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-ServicePlan-MLK"
+  default     = "CodeAcademy-JAVA-ServicePlan-BIK"
 }
 
 variable "app_service" {
   type        = string
   description = ""
-  default     = "CodeAcademy-JAVA-Service-MLK"
+  default     = "CodeAcademy-JAVA-Service-BIK"
 }
