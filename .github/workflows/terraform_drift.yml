@@ -1,8 +1,6 @@
 name: Terraform Drift Detection Pipeline
 
 on:
-  schedule:
-    - cron: 0 6 * * * # every night at 6:00 am
   workflow_dispatch:
 
 #on:
